@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Extra Resetting */
+/*-----------------------------------------*/
+
+* {
+   box-sizing: border-box;
+   outline: none;
+}
+
+*:focus {
+   outline: thin dotted;
+}
+
+strong, b, strong *, b * {
+  font-style: normal;
+  font-weight: bold !important;
+}
+
+em, i, em *, i * {
+  font-style: italic;
+}
+
+fieldset,
+img,
+a img {
+  border: 0;
+}
+
+img {
+   height: auto;
+   max-width: 100%;
+}
+
+/* Global */
+/*-----------------------------------------*/
+
+html {
+   font-size: 16px;
+   font-weight: 300;
+}
+
+body {
+  color: #636363;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #303030;    
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #969696;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+ul, ol {
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: #e2231a;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre,
+code {
+  padding: .25em .5em;
+  font-family: Menlo, Monaco, monospace;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+
+pre {
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #e2e2e2;
+  position: relative;
+  margin: 2rem 0;
+}
+
+/* Helper Classes */
+/*-----------------------------------------*/
+
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.heavy {
+  font-weight: 500;
+}
+
+.heavy a {
+  font-weight: 700;
+}
+
+.container {
+  padding: 0 2%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+/* Header */
+/*-----------------------------------------*/
+
+.site-header {
+  margin-bottom: 4rem;
+}
+
+.masthead {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 1.5rem 0;
+  margin-bottom: 3rem;  
+}
+
+.masthead .logo {
+  display: block;
+  height: 45px;
+  max-width: 50%;
+  width: 268px;
+}
+
+.tagline { 
+  font-style: italic;
+  text-align: center;
+}
+
+/* Site Content */
+/*-----------------------------------------*/
+
+.profile-list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.profile-list li {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+.profile-photo {
+  border-radius: 75px;
+  height: 150px;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  position: relative;
+  width: 150px;
+}
+
+.profile-photo img {
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.profile-list p {
+  text-align: center;
+}
+
+/* Footer */
+/*-----------------------------------------*/
+
+.site-footer {
+   text-align: center;
+}
+
+.copyright {
+   color: #808184;
+}
+
+/* Media Queries */
+/*-----------------------------------------*/
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 18px;
+  }
+
+  .profile-list li {
+    -webkit-flex: 0 1 50%;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 20px;
+  }
+
+  .profile-list li {
+    -webkit-flex: 0 1 25%;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%;
+    max-width: 25%;
+  }
+}
