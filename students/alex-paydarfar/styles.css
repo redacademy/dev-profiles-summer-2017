@@ -1,0 +1,462 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    font-family: 'Open Sans Condensed', "sans-serif";
+    font-size: 120%;
+    background-image: url(pictures/main-photo.jpg);
+    background-size: 100% 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: darkslategrey;
+    min-width: 1435px;
+}
+.container {
+    width: 100%;
+}
+.left-floating-group {
+    float:left;
+    width: 50%;
+    margin-left: 4%
+}
+.right-floating-group {
+    float: right;
+    width: 20%;
+    margin-right: 4%;
+
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    background: -webkit-linear-gradient(left, red , yellow); /* For Safari */
+    background: -o-linear-gradient(right, red, yellow); /* For Opera  */
+    background: -moz-linear-gradient(right, red, yellow); /* For Firefox*/
+    background: linear-gradient(to right, red , yellow); 
+    padding-left: 135px;
+}
+p {
+    font-size: 20px;
+}
+ol {
+    list-style-type: upper-roman;
+    font-size: 90%;
+}
+#home {
+    margin: 2px;
+    padding-left: 5px;
+}
+.header img {
+    float: left;
+    padding-right: 5px;
+    padding-top: 13px;
+}
+.header h2 {
+    position: relative;
+}
+#current-job {
+    margin: 2px;
+    padding-left: 5px;
+}
+.job-image img {
+    float: left;
+    padding-right: 5px;
+     padding-top: 13px;
+}
+.job-image h2 {
+    position: relative;
+}
+#personal-interest {
+    margin: 2px;
+    padding-left: 5px; 
+}
+.interest-logo img {
+  float: left;
+    padding-right: 5px;
+     padding-top: 5px;
+}
+.interest-logo h2 {
+    position: relative;
+}
+#travel-experience {
+    margin: 2px;
+    padding-left: 5px;
+}
+.travel-logo img {
+    float: left;
+    padding-right: 5px;
+     padding-top: 8px;
+}
+.travel-logo h2 {
+    position: relative;
+}
+#secret-talents {
+    margin: 2px;
+    padding-left: 5px; 
+}
+.talents-logo img {
+    float: left;
+    padding-right: 5px;
+     padding-top: 10px;
+}
+talents-logo h2 {
+    position: relative;
+}
+#career-goal {
+    margin: 2px;
+    padding-left: 5px;
+}
+.goal-logo img {
+    float: left;
+    padding-right: 5px;
+     padding-top: 8px;
+}
+.goal-logo h2 {
+    position: relative;
+}
+#contact li {
+    float: right;
+    font-size: 25px;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+    list-style-type: none;  
+}
+#contact li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: red;
+} 
+my-background {
+    background-image: url(pictures/main-photo.jpg);
+background-position: center bottom, left top;
+background-repeat: no-repeat;
+}
+h2::first-letter { 
+    font-size: 150%;
+    color: #8A2BE2;
+}
+#external {
+    padding-left: 5px;
+    margin-left: -2px;
+}
+video {
+  position:relative;
+  z-index:-1;
+  width:106%;
+  float: right;
+    margin-top: 10%;
+    margin-bottom: -11%
+}
+#custom-message {
+  position:relative;
+  color: rgb(230, 200, 98);
+  z-index:1;
+  top: -380px; 
+    font-size: 650%;
+    font-weight: bolder;
+    float: left;
+    margin-left: 32%;
+    letter-spacing: 15px;
+    margin-top: -15%
+}
+.third-page-photo {
+    float: left;
+    clear: both;
+    position: relative;
+    width: 40%;
+    margin-top: -12%;
+}
+.third-page-contents {
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+    margin-top: -12%;
+}
+#balls {
+    float: left;
+}
+#additional-skills {
+    text-decoration: underline;
+    letter-spacing: 8px;
+    text-decoration: none;
+}
+#skills-list {
+    list-style-image: url(pictures/list-style-image2.png);
+    font-size: 130%;
+    line-height: 200%   
+}
+#top {
+    margin-left: 90%
+}html {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  font-family: 'Open Sans Condensed', "sans-serif";
+  font-size: 120%;
+  background-image: url(pictures/main-photo.jpg);
+  background-size: 100% 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: darkslategrey;
+  min-width: 1435px;
+}
+
+.container {
+  width: 100%;
+  align-content: center;
+}
+
+.left-floating-group {
+  float: left;
+  width: 50%;
+  margin-left: 4%;
+}
+
+.right-floating-group {
+  float: right;
+  width: 20%;
+  margin-right: 4%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  background: -webkit-linear-gradient(left, red , yellow);
+ /* For Safari */
+  background: -o-linear-gradient(right, red, yellow);
+ /* For Opera  */
+  background: -moz-linear-gradient(right, red, yellow);
+ /* For Firefox*/
+  background: linear-gradient(to right, red , yellow);
+  padding-left: 135px;
+}
+
+p {
+  font-size: 20px;
+}
+
+ol {
+  list-style-type: upper-roman;
+  font-size: 90%;
+}
+
+#home {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.header img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 13px;
+}
+
+.header h2 {
+  position: relative;
+}
+
+#current-job {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.job-image img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 13px;
+}
+
+.job-image h2 {
+  position: relative;
+}
+
+#personal-interest {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.interest-logo img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.interest-logo h2 {
+  position: relative;
+}
+
+#travel-experience {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.travel-logo img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.travel-logo h2 {
+  position: relative;
+}
+
+#secret-talents {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.talents-logo img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 10px;
+}
+
+talents-logo h2 {
+  position: relative;
+}
+
+#career-goal {
+  margin: 2px;
+  padding-left: 5px;
+}
+
+.goal-logo img {
+  float: left;
+  padding-right: 5px;
+  padding-top: 8px;
+}
+
+.goal-logo h2 {
+  position: relative;
+}
+
+#contact li {
+  float: right;
+  font-size: 25px;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 7px;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+#contact li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
+}
+
+my-background {
+  background-image: url(pictures/main-photo.jpg);
+  background-position: center bottom, left top;
+  background-repeat: no-repeat;
+}
+
+h2::first-letter {
+  font-size: 150%;
+  color: #8A2BE2;
+}
+
+#external {
+  padding-left: 5px;
+  margin-left: -2px;
+}
+
+video {
+  position: relative;
+  z-index: -1;
+  width: 106%;
+  float: right;
+  margin-top: 10%;
+  margin-bottom: -11%;
+}
+
+#custom-message {
+  position: relative;
+  color: rgb(230, 200, 98);
+  z-index: 1;
+  top: -380px;
+  font-size: 650%;
+  font-weight: bolder;
+  float: left;
+  margin-left: 32%;
+  letter-spacing: 15px;
+  margin-top: -15%;
+}
+
+.third-page-photo {
+  float: left;
+  clear: both;
+  position: relative;
+  width: 40%;
+  margin-top: -12%;
+}
+
+.third-page-contents {
+  float: right;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: -12%;
+}
+
+#balls {
+  float: left;
+}
+
+#additional-skills {
+  text-decoration: underline;
+  letter-spacing: 8px;
+  text-decoration: none;
+}
+
+#skills-list {
+  list-style-image: url(pictures/list-style-image2.png);
+  font-size: 130%;
+  line-height: 200%;
+}
+
+#top {
+  margin-left: 90%;
+}

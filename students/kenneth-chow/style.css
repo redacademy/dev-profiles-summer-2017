@@ -1,0 +1,81 @@
+body, h1, h2, h3, h4, p, div, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.container {
+    width: 100%;
+}
+
+#left-content {
+    width: 50%;
+    height: 100vh;
+    background-color: #333333;
+    float: left;
+}
+
+#left-content img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 70px auto;
+    border: solid 10px white;
+
+}
+
+#left-content h1, #left-content h2 { 
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#left-content h1 {
+    padding-top: 30px;
+    font-size: 2.6em;
+}
+
+#left-content h2 {
+    margin: -30px;
+    padding-bottom: 70px;
+    font-size: 1.6em;
+}
+
+#left-content span {
+    color: red;
+}
+
+#right-content {
+    width: 50%;
+    height: 100vh;
+    float:left;
+}
+
+#right-content p {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#red {
+    color: red;
+}
+
+#right-container {
+    margin: 30px;
+}
+
+#right-content h1 { 
+    color: black;
+    letter-spacing: 3px;
+}
+
+#right-content ul {
+    padding: 20px;
+}
+
+#right-content a {
+    margin-top: 50px;
+}

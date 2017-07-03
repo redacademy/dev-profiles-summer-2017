@@ -1,0 +1,58 @@
+*{
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 30px 0;
+    background-image: url('image/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 640px;
+    margin: 0 auto;
+}
+p{
+    line-height: 21px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header-container{  
+    text-align: center;
+}
+.header-container h1{
+    font-size:42px;
+    color: #fff;
+    margin-top: 10px;
+}
+.header-container img{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.content-box{
+     padding: 30px 20px;
+}
+.box-container{
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 3px #ccc;
+}
+.content-box section{
+    display: block;
+}
+.content-box section h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.text-center{
+    text-align: center;
+}

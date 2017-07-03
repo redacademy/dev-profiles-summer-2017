@@ -1,0 +1,61 @@
+.name {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #B22222;
+}
+.container-clearfix {
+    border-bottom: 1px solid;
+}
+.self-portrait {
+    height: 120px;
+    border-radius: 100%;
+}
+.student {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #696969
+}
+.header-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 275px;
+    margin-right: 260px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.intro {
+    padding-top: 15px;
+}
+.info {
+    background-color: #C0C0C0;
+}
+.heading {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #483D8B;
+    text-align: center;
+}
+.sentence {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 	#2F4F4F;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.facts {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 	#2F4F4F;
+    text-align: center;
+}
+footer {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 40px;
+}
+.sentence:nth-child(7n) {
+  margin-bottom: 0;
+}
+.heading:first-child {
+  padding-top: 50px;
+}
