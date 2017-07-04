@@ -1,0 +1,53 @@
+ 
+ .{
+   font-family:"times, serif;";
+ }
+ 
+ h1{
+  color:purple;
+}
+
+p{
+  color:black;
+}
+
+h5{
+  color: black;
+}
+
+h3{
+  color: red;
+}
+
+.more{
+  color: green;
+}
+
+body{
+  color:darkblue;
+  font-size:24px;
+  margin:0;
+  padding:0;
+}
+
+a{
+  color:green;
+}
+  
+.img{
+  width: 400x;
+  height: 500px; 
+  display: block;
+  margin:0px auto;
+  float:right;
+}
+  
+  
+
+  li {
+  font-weight: 10;
+  padding: 2px 3px;
+  margin: auto;
+  display:block;
+  }
+

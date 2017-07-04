@@ -1,0 +1,67 @@
+p {
+
+   font-size: 120%; 
+
+}
+
+body {
+
+    text-align: center;
+
+}
+
+#first-section {
+
+    background-color: blue;
+    
+}
+
+ul {
+
+    list-style-type: square;
+    font-size: 120%;
+
+}
+
+.center {
+
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+img {
+
+    width: 600px;
+    height: 400px;
+    float:left;
+
+}
+
+.left {
+
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+span {
+
+    font-weight: bold;
+
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+
+    color: blue;
+
+}

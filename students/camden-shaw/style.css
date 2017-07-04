@@ -1,0 +1,171 @@
+
+/* creating default corner  curve*/
+div {
+    border-radius: 5px;
+}
+
+/*setting perameters for the header*/
+#header {
+    z-index: 3;
+    position: fixed;
+    float: left;
+    width: 92%;
+    margin-top: -20px;
+    margin-left: 2%;
+    height: 30px;
+    background-color: #aaaaaa;
+    padding: 1px;
+    min-width: 400px;
+}
+
+/* changing default colour for hyper links*/
+a:hover {
+        font-style: italic;
+        color: #abcd33;
+}
+
+/* first name properties */
+.firstName {
+    float: left;
+    margin-top: 8px;
+    font-size: 15px;
+    font-family: Verdana, Georgia, Cambria;
+    color: #FFF111;
+    padding: 1px;
+}
+
+/*last and middle name properties*/
+.otherNames {
+    float: left;
+    margin-top: 8px;
+    font-size: 15px;
+    font-family: Verdana, Georgia, Cambria;
+    color: #FFF111;
+    padding: 1px;
+}
+
+/*link to my email address*/
+.eMailLink {
+    float: right;
+    margin-top: 8px;
+    padding-top: 1px;
+    font-size: 15px;
+    font-family: Verdana, Georgia, Cambria;
+    color: #FFF111;
+    position: right;
+}
+
+/*upper left box properties*/
+#upperLeft {
+    float: left;
+    border-radius: 49%;
+    padding-right: 10px;
+    z-index: 0;
+    margin-bottom: 1px;
+    position: absolute;
+    margin-top: 30px;
+    width: 25%;
+    height: width;
+    max-width: 200px;
+    background-color: #1FFFFF;
+}
+
+/*picture of my face properties*/
+.face {
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top:5px;
+    margin-right: 5px;
+    width:100%;
+    height:width;
+    border-radius: 49%;
+    z-index:0;
+}
+
+/*button to close the distracting picture*/
+.closeButton {
+    margin-top: 30px;
+    margin-left:10px;
+    background-color: #3F2445;
+    width: 10px;
+    position: absolute;
+}
+
+/*upper right text box properties*/
+#upperRight {
+    background-color: #FFB1DF;
+    z-index: 1;
+    float: right;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 30%;
+    padding: 8px;
+    max-height: 200px;
+    padding-right: 10px;
+    overflow: scroll;
+}
+
+/*font stylings for main header*/
+.myLife {
+    font-family: Courier New, Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4A3300;
+    text-align: center;
+}
+
+/*default stylings for paragraphs*/
+.paragraphs {
+    font-family: Arial, Arial Narrow, Impact;
+    font-size: 12px;
+    color: #4A3300;
+}
+
+/*stylings for bottom box*/
+#bottomRow {
+    background-color: #FFB1DF;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 8px;
+    padding-right: 10px;
+}
+
+/*stylings for footer*/
+#footer {
+    background-color: #50B1DF;
+    position: relative;
+    width: 90%;
+    padding-right: 5%;
+    z-index: 2;
+    padding-left: 5%;
+    margin-bottom: -20px;
+}
+
+/*stylings for social links table header*/
+table, th {
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+/*background colour*/
+html {
+    background-color: #322445;
+}
+
+/*social media links properties*/
+#social {
+    width: 49%;
+    height: 10%;
+    max-width: 250px;
+    float: right;
+    padding-right: 32%;
+}
+
+/*most common header properties*/
+.commonH {
+    font-family: Impact, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-size: 13px;
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.header {
+    background-image: url(images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;        
+    position: relative;        
+    width: 100%;      
+    margin-left: auto;      
+    margin-right: auto;
+    height: 300px; 
+}
+
+.main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 20px 0;
+    padding: 0;
+    width: 1080px;
+}
+
+.title h3, h1 {
+    margin: 0;
+}
+
+.box {
+    width: 1080px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+hr {
+    width: 340px; 
+    height: 1px; 
+    background: black;
+    color: #ccc;
+    margin-left: 0;
+    border: 0 none;
+}
+
+.box p {
+    width: 1080px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.box ul {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#caveat {
+    font-size: 16px;
+}
+
+.box img {
+    padding: 0 0 30px 0;
+}
+
+#last {
+    border: none;
+}
+
+footer {
+    height: 50px;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer a {
+    margin-left: 10px;
+}

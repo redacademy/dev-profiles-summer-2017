@@ -1,0 +1,56 @@
+* body {
+ background: url(https://media.freestocktextures.com/cache/c6/89/c689f642a86816c359ae6d3cf3287b2b.jpg) center;
+ background-size: cover;
+ align-self: center;
+ padding: 20px;
+ color: white;
+}
+
+* p, li {
+    font-size: 25px;
+}
+
+* a {
+    color: white;
+}
+
+.container {
+  margin-bottom: 4rem;
+}
+
+.profile-header, {
+  margin: 0 auto;
+  max-width: 800px;
+  align-content: center;
+}
+
+.profile-header {
+  padding: 1rem 0;
+}
+
+.profile-title {
+  float: left;
+}
+
+.profile-title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 0;
+  color: gold
+}
+
+.profile-title p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+* img {
+  display: block;
+  float: right;
+  border-radius: 100px;
+  height: 250px;
+  width: 250px;
+}
+
