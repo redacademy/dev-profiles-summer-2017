@@ -1,0 +1,32 @@
+
+body {
+  padding: 10;
+  margin: 10;
+  background-color: background-image: -webkit-gradient(left top, left top, left bottom, from(black), to(yellow));
+  background-image: -webkit-linear-gradient(bottom right, black, yellow);
+  background-image: -moz-linear-gradient(bottom right, black, yellow);
+  background-image: linear-gradient(to top left, black, darkred);;
+  text-align: center;
+  color: green;
+  
+}
+
+h1 {
+  color: yellow;
+  font-family: 'Ruda', sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+
+.border {
+  margin: 60px auto;
+  padding: 10px 0px 0px 0px;
+  width: 60%;
+  border-style: inset;
+  border-width: 5px;
+  border-color: #AF3432;
+
